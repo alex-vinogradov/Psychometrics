@@ -1,0 +1,29 @@
+project:
+  type: book
+  output-dir: docs
+
+lang: uk-UA
+number-depth: 1
+
+book:
+  title: "Вступ до психометрики"
+  author: "Майкл Фьор"
+  date: "12/20/2024"
+
+  chapters:
+    - index.qmd
+    - chapter-01.qmd
+    - part: "Розділ I. Основні поняття вимірювання"
+      chapters: 
+        - chapter-02.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    toc-title: Зміст
+    theme:
+      - brand
+    css: styles.css
+  pdf:
+    documentclass: scrreprt

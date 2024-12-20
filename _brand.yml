@@ -1,0 +1,11 @@
+color:
+  background: aliceblue
+  foreground: navy
+typography:
+  fonts:
+    - family: Roboto
+      source: google
+    - family: Roboto Flex
+      source: google
+  base: Roboto
+  headings: Roboto Flex

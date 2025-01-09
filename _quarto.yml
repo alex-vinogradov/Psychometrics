@@ -16,6 +16,7 @@ book:
     - part: "Розділ I. Основні поняття вимірювання"
       chapters: 
         - chapter-02.qmd
+        - chapter-04.qmd
 
 bibliography: references.bib
 
